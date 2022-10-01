@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="GameAPI">
+    <output-path>$PROJECT_DIR$/../../Server/纯净nk/plugins</output-path>
+    <root id="archive" name="GameAPI.jar">
+      <element id="module-output" name="GameAPI" />
+    </root>
+  </artifact>
+</component>

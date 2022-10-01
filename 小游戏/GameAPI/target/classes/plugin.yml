@@ -1,0 +1,7 @@
+name: GameAPI
+main: gameapi.GameAPI
+version: "1.0.8Beta2"
+api: "1.0.0"
+author: glorydark
+description: GameAPI
+load: POSTWORLD

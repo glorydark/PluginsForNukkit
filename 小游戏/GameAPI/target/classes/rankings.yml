@@ -1,0 +1,8 @@
+refresh_interval: 10
+list:
+  - game_name: "DRecknessHero"
+    compared_type: "win"
+    x: 0.0
+    y: 0.0
+    z: 0.0
+    level: world

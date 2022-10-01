@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="FloatingText">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../Server/备份/20220730/plugins/FloatingText.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
