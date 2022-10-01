@@ -1,0 +1,7 @@
+全局禁用指令:
+  - "ban"
+  - "me"
+  - "give BizarreDark"
+单世界禁用指令:
+  lobby:
+    - "give"

@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="BanCommand">
+    <output-path>$PROJECT_DIR$/../../Server/纯净nk/plugins</output-path>
+    <root id="archive" name="BanCommand.jar">
+      <element id="module-output" name="DBanCommand" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,9 @@
+name: BanSystemUI
+main: glorydark.bansystem.MainClass
+author: glorydark
+version: 1.0.1.1
+description: BanSystemUI
+api: "1.0.0"
+load: POSTWORLD
+depend:
+  - EasyMySQL

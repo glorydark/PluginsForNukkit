@@ -1,0 +1,7 @@
+name: SimpleDialogues
+main: glorydark.SimpleDialogues.MainClass
+version: "1.0.6"
+author: glorydark
+api: ["1.0.0"]
+description: SimpleDialogues
+load: POSTWORLD

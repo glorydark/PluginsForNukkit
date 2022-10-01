@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="fireworkshop">
+    <output-path>$PROJECT_DIR$/../../Server/est/plugins</output-path>
+    <root id="archive" name="fireworkshop.jar">
+      <element id="module-output" name="DFireworkShop" />
+    </root>
+  </artifact>
+</component>

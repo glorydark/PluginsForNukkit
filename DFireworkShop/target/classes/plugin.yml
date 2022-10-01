@@ -1,0 +1,8 @@
+name: DFireworkShop
+main: glorydark.fireworkshop.MainClass
+version: "1.0.2"
+api: "1.0.0"
+author: glorydark
+description: fireworkshop
+load: POSTWORLD
+dependence: ["EconomyAPI"]

@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="ItemCommand">
+    <output-path>$PROJECT_DIR$/../../Server/TEST/plugins</output-path>
+    <root id="archive" name="ItemCommand.jar">
+      <element id="module-output" name="ItemCommand" />
+    </root>
+  </artifact>
+</component>

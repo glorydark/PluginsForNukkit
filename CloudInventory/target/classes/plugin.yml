@@ -1,0 +1,7 @@
+name: CloudInventory
+main: glorydark.CloudInventory.MainClass
+author: glorydark
+version: 1.0.2
+description: CloudInventory
+api: "1.0.0"
+load: POSTWORLD

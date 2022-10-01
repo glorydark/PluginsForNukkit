@@ -1,0 +1,6 @@
+normal:
+  prefix: "见习协管"
+  canKickPlayer: false
+  canBanPlayer: false
+  canMutePlayer: false
+  canWarnPlayer: true

@@ -1,0 +1,7 @@
+default:
+  prefix: 新手
+  reportPerDay: 2
+初级检察官:
+  prefix: 初级检察官
+  exp: 10
+  reportPerDay: 5

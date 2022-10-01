@@ -1,0 +1,7 @@
+name: ShowToast
+main: glorydark.showtoast.MainClass
+version: "1.0.0"
+api: "1.0.0"
+author: glorydark
+description: ShowToast
+load: POSTWORLD

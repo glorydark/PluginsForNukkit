@@ -1,0 +1,33 @@
+MainGui:
+  Title: 云背包
+  Description: 您的背包空间为 %d1 / %d2
+  Button1: 查看背包
+  Button2: 取出物品
+  Button3: 放入物品
+MinorGui:
+  ShowBagTitle: 背包物品
+  PickItemTitle: 取出物品
+  PutItemTitle: 放入物品
+  PickItemDropDownName: 背包物品
+  PutItemDropDownName: 云背包物品
+  ResultTitle: 提示
+  ModalGuiButton1: 返回
+  ModalGuiButton2: 关闭
+Message:
+  PickItemSuccessfully: §l§a成功取出物品 %ItemName% !
+  PickItemFailedForIndexInputWrong: §l§c云背包格子索引不正确！
+  UploadItemSuccessfully: §l§a成功上传物品 %ItemName% ！
+  InventoryFull: §l§c您的背包已满，没有足够空间拿出本物品！
+  CloudInventoryFull: §l§c您的云背包已满
+  PlayerIsOffline: 玩家不在线
+  GiveItemSuccessfully: 给予玩家 %ItemName% 成功
+  GiveItemFailed: 给予失败
+  ForbidAirBeingUpload: 不能上传空气
+  UseInGameOnly: 请在游戏内使用
+  UseInConsoleOnly: 请在控制台使用
+  NoPermission: 您没有执行该命令的权限
+  TranslationExist: 您已经创建过该物品的显示译名了
+  TranslationCreateSuccessfully: 成功创建该物品译名
+  GiveAllOnlinePlayerItemSuccessfully: 成功给予所有玩家 %ItemName%
+  CloudInventoryIsEmpty: 您的云背包为空
+  InventoryIsEmpty: 您的云背包为空

@@ -1,0 +1,7 @@
+name: ItemCommand
+main: glorydark.ItemCommand.MainClass
+author: glorydark
+version: 1.0.0
+description: ItemCommand
+api: "1.0.0"
+load: POSTWORLD

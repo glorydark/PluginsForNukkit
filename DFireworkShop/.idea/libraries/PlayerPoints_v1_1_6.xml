@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="PlayerPoints_v1.1.6">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../Server/MainServer1/plugins/PlayerPoints_v1.1.6.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

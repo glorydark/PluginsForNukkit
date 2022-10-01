@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="CloudInventory">
+    <output-path>$PROJECT_DIR$/../../Server/TEST/plugins</output-path>
+    <root id="archive" name="CloudInventory.jar">
+      <element id="module-output" name="CloudInventory" />
+    </root>
+  </artifact>
+</component>
