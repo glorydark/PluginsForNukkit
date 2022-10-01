@@ -1,0 +1,10 @@
+name: DSheepWar
+main: glorydark.sheepwar.SheepWarMain
+version: "1.0.1"
+api: "1.0.0"
+author: glorydark
+description: GameAPI
+load: POSTWORLD
+depend:
+  - ScoreboardPlugin
+  - GameAPI

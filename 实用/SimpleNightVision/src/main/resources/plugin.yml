@@ -1,0 +1,7 @@
+name: SimpleNightVision
+author: glorydark
+main: glorydark.simplenightvision.MainClass
+load: POSTWORLD
+api: ["1.0.0"]
+version: "1.0.1"
+description: SimpleNightVision

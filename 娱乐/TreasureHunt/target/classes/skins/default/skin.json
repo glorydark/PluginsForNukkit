@@ -1,0 +1,50 @@
+{
+	"format_version": "1.10.0",
+	"geometry.unknown": {
+		"texturewidth": 64,
+		"textureheight": 64,
+		"visible_bounds_width": 2,
+		"visible_bounds_height": 2.5,
+		"visible_bounds_offset": [0, 0.75, 0],
+		"bones": [
+			{
+				"name": "bb_main",
+				"pivot": [0, 0, 0],
+				"cubes": [
+					{"origin": [-3, 0, -3], "size": [6, 5, 6], "uv": [0, 9]}
+				]
+			},
+			{
+				"name": "shell",
+				"pivot": [0, 0, 0],
+				"cubes": [
+					{"origin": [3, 4, -3], "size": [1, 1, 6], "uv": [14, 21]},
+					{"origin": [-4, 4, -3], "size": [1, 1, 6], "uv": [0, 20]},
+					{"origin": [-3, 4, -4], "size": [6, 1, 1], "uv": [22, 21]},
+					{"origin": [-3, 4, 3], "size": [6, 1, 1], "uv": [18, 9]}
+				]
+			},
+			{
+				"name": "butterfly",
+				"parent": "shell",
+				"pivot": [1, 0, 0],
+				"cubes": [
+					{"origin": [-1, 7, -1], "size": [2, 1, 2], "uv": [0, 0]},
+					{"origin": [0, 8, 1], "size": [1, 1, 1], "uv": [3, 6]},
+					{"origin": [0, 8, -2], "size": [1, 1, 1], "uv": [0, 5]},
+					{"origin": [0, 9, -1], "size": [1, 1, 1], "uv": [3, 4]},
+					{"origin": [0, 9, 0], "size": [1, 1, 1], "uv": [0, 3]}
+				]
+			},
+			{
+				"name": "top",
+				"parent": "shell",
+				"pivot": [0, 0, 0],
+				"cubes": [
+					{"origin": [-3, 6, -3], "size": [6, 1, 6], "uv": [18, 14]},
+					{"origin": [-4, 5, -4], "size": [8, 1, 8], "uv": [0, 0]}
+				]
+			}
+		]
+	}
+}

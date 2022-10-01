@@ -1,0 +1,5 @@
+time_format: "时间: %time%"
+rank_format: "排名: %rank%"
+failed_format: "您未完成比赛！"
+scoreboard_objective_name: "scoreboard.lc_scoreboard_entry_final"
+scoreboard_display_name: "暴走英雄"

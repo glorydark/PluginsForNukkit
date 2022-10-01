@@ -1,0 +1,42 @@
+{
+  "version": "1.0.0",
+  "skill_data": {
+    "name": "暴走超人",
+    "description": "暴走英雄专用",
+    "cooldown": 100,
+    "duration": 100,
+    "item_data": {
+      "id": 288,
+      "meta": 0,
+      "compoundtag": {
+        "skill_name": "speed-up"
+      },
+      "display_name": "暴走超人 [点击使用]"
+    },
+    "effects": [
+      {
+        "id": 1,
+        "amplifier": 2,
+        "duration": 60
+      }
+    ],
+    "controllers": [
+      {
+        "binding_type": "event",
+        "binding_value": "PlayerInteractEvent",
+        "check_data": [
+          {
+            "object": "use_item",
+            "check_type": "compound_tag#skill_name",
+            "check_value": "speed-up"
+          },
+          {
+            "object": "player",
+            "check_type": "game_name",
+            "check_value": "DRecknessHero"
+          }
+        ]
+      }
+    ]
+  }
+}

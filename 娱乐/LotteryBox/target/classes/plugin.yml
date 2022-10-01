@@ -1,0 +1,9 @@
+name: LotteryBox
+main: glorydark.lotterybox.MainClass
+version: "1.0.5Candidate1"
+author: glorydark
+api: ["1.0.0"]
+description: LotteryBox
+load: POSTWORLD
+softdepend:
+  - Tips

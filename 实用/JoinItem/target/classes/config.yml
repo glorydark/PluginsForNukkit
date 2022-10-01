@@ -1,0 +1,9 @@
+"command": joinitem
+"items":
+  - "name": 测试
+    "lore": test
+    "id": 267
+    "meta": 0
+    "count": 1
+    "commands": []
+    "messages": []

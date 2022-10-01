@@ -1,0 +1,4 @@
+# level-limit: #对接等级觉醒
+# lobby: 0-2
+players-limit: #限制世界人数
+  lobby: 2

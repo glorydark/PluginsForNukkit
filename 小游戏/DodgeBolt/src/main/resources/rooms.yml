@@ -1,0 +1,25 @@
+testroom:
+  name: "test"
+  spawn_wait: "21:66:0:test1"
+  spawn_start_team1: "0:62:-12:test1"
+  spawn_start_team2: "0:62:11:test1"
+  spawn_end: "0:66:21:test1"
+  spectator_spawn:
+    - "0:66:21:test1"
+    - "0:66:-21:test1"
+    - "21:66:0:test1"
+    - "-19:66:0:test1"
+  wall_pos1: "13:64:0:test1"
+  wall_pos2: "-12:60:0:test1"
+  arrow_spawn1: "0:62:-6:test1"
+  arrow_spawn2: "0:62:5:test1"
+  game_time: 0
+  wait_time: 10
+  ready_time: 10
+  ceremony_time: 10
+  max_players: 8
+  world_name: "Normal"
+  round: 3
+  win_commands: []
+  lose_commands: []
+#蓝队1，黄队2

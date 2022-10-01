@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="DEssential">
+    <output-path>$PROJECT_DIR$/../Server/est/plugins</output-path>
+    <root id="archive" name="DEssential.jar">
+      <element id="module-output" name="DEssential" />
+    </root>
+  </artifact>
+</component>

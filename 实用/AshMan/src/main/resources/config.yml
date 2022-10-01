@@ -1,0 +1,7 @@
+languages: zh-cn
+clean-intervals: 300 #seconds
+no-clean-levels: []
+clean-animals-with-customName: false
+no-clean-type:
+  - "EntityPainting"
+countdown-sendMessageSecond: "10|5|4|3|2|1"

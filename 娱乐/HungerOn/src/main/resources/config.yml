@@ -1,0 +1,28 @@
+#language
+language: 简体中文
+#Base
+MaxDiminishHungerValue: 1000 #达到这个值开始按照下面的扣饥饿
+DiminishValue: 1  #整数，1-10
+#PlayerEvent
+Idle: 0
+Run: 3
+Walk: 1
+BreakBlock: 3
+DamageEntity: 3
+BedEnter: 1
+BedLeave: -1
+BlockPick: 1
+DropItem: 1
+EditBook: 2
+ItemHeld: 0
+Jump: 0
+Teleport: 10
+Swim: 2
+Sneak: 2
+Glide: 3
+Flight: 2
+Sprint: 3
+AchievementAwarded: -2
+ItemConsume: 5
+#default(Survival)
+AllowRecoverHungerValue: false

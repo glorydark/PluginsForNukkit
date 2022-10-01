@@ -1,0 +1,9 @@
+"测试":
+  position: -8:65:-21:world
+  commands: []
+  messages: []
+  scale: 1.5
+  spin: true
+  spinSpeed: 4
+  isParticleMarked: true
+  skin: default

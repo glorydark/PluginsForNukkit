@@ -1,0 +1,12 @@
+PluginLoadMessage: "HungerOn Onload. Author: Glorydark"
+PluginEnableMessage: "HungerOn Enable!"
+PluginDisableMessage: "HungerOn Disable!"
+WrongCommandMessage: "Press 【/HungerOn help】 to find the tip of using commands!"
+EditedSuccessfullyMessage: "【%1s】 is set to 【%2s】 successfully!"
+EditedFailedMessage: "Unable to find the key 【%s】 in the [config.yml]"
+NotAuthorizedMessage: "You are not OP!"
+CommandHelp:
+ - "------ HungerOn Help ------"
+ - "/hungeron help - To find out the tip about commands"
+ - "/hungeron edit key value - Set the key‘s value"
+ - "------ HungerOn Help ------"s

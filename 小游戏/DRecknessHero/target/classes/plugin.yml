@@ -1,0 +1,9 @@
+name: DRecknessHero
+main: testgame.MainClass
+version: "1.0.8Beta2F3"
+api: "1.0.0"
+author: glorydark
+description: DRecknessHero
+load: POSTWORLD
+depend:
+  - GameAPI

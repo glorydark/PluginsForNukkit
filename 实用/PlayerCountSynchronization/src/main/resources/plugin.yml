@@ -1,0 +1,7 @@
+name: PlayerCountSynchronization
+main: glorydark.playercountsync.MainClass
+version: "1.0.1"
+author: glorydark
+api: ["1.0.0"]
+description: PlayerCountSynchronization
+load: POSTWORLD

@@ -1,0 +1,197 @@
+# Language Translation Part's Config
+# Supported MyTp v1.1.8
+# Of course, multi-language function is coming! It's not joking!
+# You can change all the text about the system, not including some important information!
+# Hope you pals can all enjoy this version! Hope to see you on next summer vacation!
+# 没错，这是1.1.8 MyTp 的新语言文件，它来了！
+# 你可以修改很多提示的文本信息，但是不包括插件中一些重要的信息内容，比如版权信息、插件名称版本等！
+# 希望各位能够享受这个新版本！同时希望明年暑假再见！
+# Designed for uploading to NukkitX forum!
+
+MainMenu: #完成
+  title: "传送系统"
+  content: "您好，玩家 %player% ，欢迎使用本传送系统，您的金币剩余 %money%"
+  button1_text: "§a§l公共传送点 \n [ 选择前往的公共传送点 ]"
+  button2_text: "§b§l传送系统 \n [ 传送到玩家/将玩家传送到你 ]"
+  button3_text: "§4§l我的设置 \n [ 设置自动接受邀请或重生点 ]"
+  button4_text: "§5§l家系统 \n [ 不用担心迷路嗷！ ]"
+  button5_text: "§3§l世界传送 \n [ 在世界中来回穿梭 ]"
+  button6_text: "返回上次死亡点 \n [ 回到死亡点，重新开始 ]"
+  button7_text: "§1§l随机传送"
+  button8_text: "§c§l[OP]全体传送"
+  button9_text: "§e§l[OP]传送点设置"
+  button10_text: "§1§l[OP]传送系统设置"
+  button11_text: "§1§l[OP]所有世界传送"
+  button1_pic_path: "path:textures/items/diamond.png"
+  button2_pic_path: "path:textures/items/iron_ingot.png"
+  button3_pic_path: "path:textures/blocks/shroomlight.png"
+  button4_pic_path: "path:textures/blocks/ender_chest_front.png"
+  button5_pic_path: "path:textures/items/villagebell.png"
+  button6_pic_path: "path:textures/ui/realmsIcon.png"
+  button7_pic_path: "url:https://klpbbs.com/static/image/common/medal/jiaocheng.png"
+  button8_pic_path: "url:https://klpbbs.com/static/image/common/medal/admin.gif"
+  button9_pic_path: "url:https://klpbbs.com/static/image/common/medal/yzn.png"
+  button10_pic_path: "path:textures/ui/realmsIcon.png"
+  button11_pic_path: "path:textures/ui/realmsIcon.png"
+#Warp System
+Warp_MainMenu: #完成
+  title: "§e§l传送系统 - 传送点系统"
+  content: "请选择您需要传送到的传送点"
+  button1_text: "设置传送点"
+  button2_text: "创建传送点"
+  button3_text: "删除传送点"
+  button1_pic_path: "path:textures/ui/dev_glyph_color.png"
+  button2_pic_path: "path:textures/ui/hammer_l.png"
+  button3_pic_path: "path:textures/ui/realms_red_x.png"
+Warp_CreateMenu: #完成
+  title: "§e§l传送系统 - 公共传送点创建"
+  input1_text: "§e传送点标记"
+  input1_tip: "这是后台配置时的文件名"
+  input2_text: "§e传送点名称"
+  input2_tip: "这是后台配置时的文件名"
+  input3_text: "§ex轴坐标"
+  input4_text: "§ey轴坐标"
+  input5_text: "§ez轴坐标"
+  input6_text: "§e世界名称"
+  toggle7_text: "§e是否允许进入"
+  input8_text: "§e大标题"
+  input8_tip: "我是大标题"
+  input9_text: "§e小标题"
+  input9_tip: "我是小标题"
+Warp_DeleteMenu: #完成
+  title: "§e§l传送系统 - 公共传送点删除"
+  dropdown_title: "请选择要删除的传送点"
+Warp_TeleportMenu: #完成
+  title: "§e传送系统"
+  content: "§e§l传送点系统"
+  test_name: "测试自定义"
+  test_picpath: "path:textures/ui/friend1_black_outline_2x.png"
+Warp_SettingSelectMenu: #完成
+  title: "§e§l传送系统 - 公共传送点设置"
+  content: "请选择您所需要编辑的传送点"
+
+Warp_SettingMenu: #完成
+  title: "§e§l传送系统 - 公共传送点设置"
+  input1_title: "§e传送点名称"
+  input2_title: "§ex轴坐标"
+  input3_title: "§ey轴坐标"
+  input4_title: "§ez轴坐标"
+  input5_title: "§e世界名称"
+  toggle6_title: "§e是否允许进入"
+  input7_title: "§e大标题"
+  input8_title: "§e小标题"
+
+#TeleportSystem #完成
+Teleport_ToPlayer:
+  title: "§e§l传送系统"
+  content: "§e选择你要传送到的玩家"
+Teleport_PlayerToYou:
+  title: "§e§l传送系统"
+  content: "§e选择你要邀请的玩家"
+Teleport_ToPlayerAccept:
+  title: "§e§l传送系统"
+  content: "§e§l申请传送列表"
+Teleport_Main:
+  title: "§e§l玩家传送系统"
+  content: "§e§l选择功能！"
+  button1_text: "传送到玩家"
+  button2_text: "将玩家传送到你"
+  button1_pic_path: "path:textures/ui/anvil_icon.png"
+  button2_pic_path: "path:textures/ui/accessibility_glyph_color.png"
+
+#HomeSystem
+Home_Main: #完成
+  title: "§e§l传送系统 - 家"
+  content: "请选择需要使用的功能"
+  button1_text: "新建家于此处"
+  button2_text: "传送到家"
+  button3_text: "删除家"
+  button1_pic_path: "path:textures/ui/anvil_icon.png"
+  button2_pic_path: "path:textures/ui/accessibility_glyph_color.png"
+  button3_pic_path: "path:textures/ui/cancel.png"
+Home_TeleportMenu: #完成
+  title: "§e§l传送系统 - 你的家"
+  content: "请选择需要传送到的家"
+Home_CreateMenu: #完成
+  title: "§e§l传送系统 - 创建家"
+  input1_text: "名称"
+  input1_tip: "这里填传送点名，不要重复"
+  input2_text: "简介"
+  input2_tip: "无"
+Home_DeleteMenu:
+  title: "§e§l传送系统 - 删除家"
+  dropdown_title: "请选择要删除的内容"
+
+World_TeleportMenu:
+  title: "§e§l传送系统 - 多世界传送"
+  content: "所有允许传送的世界已经展示在此"
+  world_name: "测试自定义"
+  world_picpath: "path:textures/ui/friend1_black_outline_2x.png"
+
+#Setting
+PersonalSetting: #完成
+  title: "§e§l传送系统 - 个人设置"
+  toggle1_text: "§e开/关自动接受申请"
+  toggle2_text: "§e重新设置出生点(需花费一定金币)"
+SystemSettingMenu: #完成
+  title: "§e§l传送系统 - 系统设置"
+  input1_text: "§e传送邀请花费"
+  input2_text: "§e设置家花费"
+  input3_text: "§e设置重生点"
+  input4_text: "§e家数量限制"
+  toggle5_text: "§e强制回主城"
+  toggle6_text: "§e开启设置重生点"
+  input7_text: "§e返回死亡点花费"
+  input8_text: "§e随机传送花费"
+
+Convenient_Tool:
+  nametag: "§l§e快捷打开传送界面"
+  lore: "§l§eMytp"
+
+Tips:
+  #default menu
+  menu_default_title: "§e§l传送系统"
+  menu_button_return_text: "返回"
+  menu_button_return_pic_path: "path:textures/ui/refresh_light"
+  #default teleport
+  deathpoint_not_exist: "§e上次死亡点不存在！"
+  back_to_lobby: "您已回到主城!"
+  back_to_spawnpoint: "您已传送至您设置的出生地!"
+  god_effect_given: "您已进入3秒重生无敌状态！"
+  god_effect_dissolve: "您已解除无敌状态！"
+  given_convenient_tool: "赠送您一个快捷传送工具！"
+  #tips
+  short_of_money: "§e您的货币不足"
+  on_teleporting: "正在传送，请稍后..."
+  settings_error: "设置有误！"
+  #home
+  remove_home_successfully: "§e已移除家【 %name% 】"
+  home_counts_reach_maxinum: "§e您的家数量已达最大！"
+  have_no_home: "您还没有家！"
+  create_home_successfully: "§e创建家[ %name% ]成功,本次花费了金币 %cost%"
+  settings_saved: "§e设置已保存"
+  settings_not_changed: "§e设置无变动！"
+  input_not_all: "§e您输入的信息不完全！"
+  input_wrong: "§e您输入的信息有误！"
+  title_default: "我是大标题:我是小标题"
+  teleport_to_home: "正在传送到家: %name%"
+  #world
+  player_not_in_whitelist: "对不起，您不在该世界的白名单内，无法进行传送！"
+  world_is_not_loaded: "对不起，该地图尚未加载"
+  #tp
+  teleport_to_player: "§e成功传送至 %player%"
+  operation_is_not_authorized: "§c§l您未取得信任！"
+  manager_teleport_msg_to_player: "§e%player% 强制传送了你!"
+  manager_teleport_msg_to_manager: "§e%player% 被您的强制请求传送到你的位置!"
+  #warp
+  warppoint_settings_not_comprehensive: "§e该传送点未设置完毕，无法进行传送"
+  warppoint_created: "§e创建传送点[ %name% ]成功"
+  warppoint_closed: "§e传送点[ %name% ]暂时关闭!"
+  warppoint_existed: "§e您已经创建过这个传送点了！"
+  warppoint_removed: "§e已移除点【 %name% 】"
+  warppoint_teleport: "正在传送到传送点: %name% "
+  warppoint_world_not_loaded: "传送点所在地图不存在！"
+  #wild
+  wild_success: "成功传送！"
+  wild_failed: "传送失败，请重试！"
+  world_not_allowed: "本世界不允许此操作!"

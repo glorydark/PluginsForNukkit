@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="RsNPCX-1.8.7">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../Server/TEST/plugins/RsNPCX-1.8.7.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

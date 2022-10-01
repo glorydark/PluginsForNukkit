@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="LotteryBox">
+    <output-path>$PROJECT_DIR$/../../Server/纯净nk/plugins</output-path>
+    <root id="archive" name="LotteryBox.jar">
+      <element id="module-output" name="LotteryBox" />
+    </root>
+  </artifact>
+</component>

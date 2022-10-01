@@ -1,0 +1,12 @@
+PluginLoadMessage: "加载 HungerOn 中. Author: Glorydark"
+PluginEnableMessage: "HungerOn 加载完毕!"
+PluginDisableMessage: "HungerOn 卸载完毕!"
+WrongCommandMessage: "输入 /HungerOn help 查看帮助"
+EditedSuccessfullyMessage: "成功设置 【%1s】 为 【%2s】"
+EditedFailedMessage: "无法找到 【%s】 配置项"
+NotAuthorizedMessage: "您没有该权限"
+CommandHelp:
+ - "------ HungerOn Help ------"
+ - "/hungeron help 查看帮助"
+ - "/hungeron edit key value 编辑key(配置项)为value"
+ - "------ HungerOn Help ------"

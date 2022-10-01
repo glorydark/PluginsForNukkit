@@ -1,0 +1,16 @@
+"SportsSquare":
+  WaitSpawn: "120:4:96:SportsSquare"
+  StartSpawn: "119:4:85:SportsSquare"
+  WaitTime: 3
+  GameTime: 100
+  MinPlayer: 1
+  MaxPlayer: 1
+  LoadWorld: SportsSquare
+"scene01":
+  WaitSpawn: "120:4:96:scene01"
+  StartSpawn: "119:4:85:scene01"
+  WaitTime: 3
+  GameTime: 100
+  MinPlayer: 1
+  MaxPlayer: 1
+  LoadWorld: scene01

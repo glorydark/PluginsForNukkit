@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="Sudo">
+    <output-path>$PROJECT_DIR$/../../Server/纯净nk/plugins</output-path>
+    <root id="archive" name="Sudo.jar">
+      <element id="module-output" name="Sudo" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,7 @@
+name: TreasureHunt
+main: glorydark.treasurehunt.MainClass
+version: "1.0.3F2"
+author: glorydark
+api: ["1.0.0"]
+description: TreasureHunt
+load: POSTWORLD

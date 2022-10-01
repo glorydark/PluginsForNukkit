@@ -1,0 +1,4 @@
+default:
+  blockParticle: "null"
+"测试":
+  blockParticle: "100:0"

@@ -1,0 +1,8 @@
+name: Mytp
+main: glorydark.MainClass
+version: "1.1.8.1B1F9"
+author: glorydark
+api: ["1.0.0"]
+description: Mytp
+load: POSTWORLD
+depend: ["EconomyAPI"]

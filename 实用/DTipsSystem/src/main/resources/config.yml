@@ -1,0 +1,7 @@
+addtype: 0 #0为title 1为actionbar 2为message 3为popup
+addContent: '欢迎 %p% 进入 %level%'
+addSubTitle: "test" #title、popup可用
+executecommand: []
+fadein: 1
+fadeout: 1
+duration: 5 #title、popup、actionbar可用

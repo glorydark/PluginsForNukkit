@@ -1,0 +1,45 @@
+testroom:
+  name: "测试房间1"
+  spawn_wait: "-0.5:119:0.5"
+  spawn_start:
+    "Blue":
+      spawn: "0:64:-77"
+      prefix: "§b"
+      max: 4
+      spawn_index: 0
+    "Yellow":
+      spawn: "0:64:80"
+      prefix: "§e"
+      max: 4
+      spawn_index: 1
+  common_tribute:
+    score: 100
+    interval: 20
+    spawns:
+      - "-3.5:67:-3.5"
+      - "4.5:67:-3.5"
+      - "4.5:67:6.5"
+      - "-3.5:67:6.5"
+      - "8.5:67:11.5"
+      - "-9.5:65:15.5"
+      - "-9.5:67:-6.5"
+      - "11.5:65:-11.5"
+      - "9.5:72:-11.5"
+      - "-9.5:72:14.5"
+      - "-3.5:86:5.5"
+      - "-3.5:86:-2.5"
+      - "4.5:86:-2.5"
+      - "4.5:86:5.5"
+  golden_tribute:
+    score: 2000
+    interval: 40
+    spawns:
+      - "0.5:85:1.5"
+      - "0.5:66:1.5"
+  game_time: 180
+  wait_time: 60
+  ready_time: 10
+  ceremony_time: 10
+  world: "lootbattle#1"
+  winner_commands: []
+  loser_commands: []

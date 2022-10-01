@@ -1,0 +1,15 @@
+name: AshMan
+main: glorydark.ashman.MainClass
+version: "1.0.1"
+author: glorydark
+api: ["1.0.0"]
+description: AshMan
+load: POSTWORLD
+commands:
+  cleanAll:
+    description: "cleanAll"
+    usage: "cleanAll"
+    permission: commands.glorydark.ashman
+permissions:
+  commands.glorydark.ashman:
+    default: true

@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="TreasureHunt">
+    <output-path>$PROJECT_DIR$/../../../Server/纯净nk/plugins</output-path>
+    <root id="archive" name="TreasureHunt.jar">
+      <element id="module-output" name="TreasureHunt" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="JoinItem">
+    <output-path>$PROJECT_DIR$/../../Server/纯净nk/plugins</output-path>
+    <root id="archive" name="JoinItem.jar">
+      <element id="module-output" name="JoinItem" />
+    </root>
+  </artifact>
+</component>

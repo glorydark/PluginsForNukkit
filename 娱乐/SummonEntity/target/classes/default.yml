@@ -1,0 +1,15 @@
+name: "test"
+health: 20
+damage: 8.0
+defense: 6.0
+follow: true
+delta:
+  x: 0
+  y: 0
+  z: 0
+duration: 10
+model:
+  skin: "test"
+  varied: true
+  interval: 20
+  scale: 2

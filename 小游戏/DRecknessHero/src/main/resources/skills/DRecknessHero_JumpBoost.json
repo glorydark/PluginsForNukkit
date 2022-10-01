@@ -1,0 +1,37 @@
+{
+  "version": "1.0.0",
+  "skill_data": {
+    "name": "忍者之星",
+    "description": "暴走英雄专用",
+    "cooldown": 100,
+    "duration": 100,
+    "item_data": {
+      "id": 288,
+      "meta": 0,
+      "compoundtag": {
+        "skill_name": "jump_boost"
+      },
+      "display_name": "忍者之星 [点击使用]"
+    },
+    "effects": [
+      {
+        "id": 8,
+        "amplifier": 2,
+        "duration": 20
+      }
+    ],
+    "controllers": [
+      {
+        "binding_type": "event",
+        "binding_value": "PlayerInteractEvent",
+        "check_data": [
+          {
+            "object": "use_item",
+            "check_type": "compound_tag#skill_name",
+            "check_value": "jump_boost"
+          }
+        ]
+      }
+    ]
+  }
+}

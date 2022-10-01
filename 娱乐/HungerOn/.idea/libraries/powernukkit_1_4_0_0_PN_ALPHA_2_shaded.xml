@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="powernukkit-1.4.0.0-PN-ALPHA.2-shaded">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../Server/GenerateWorldsServer/powernukkit-1.4.0.0-PN-ALPHA.2-shaded.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

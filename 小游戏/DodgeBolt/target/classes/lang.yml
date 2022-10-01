@@ -1,0 +1,17 @@
+# I am a fan of MCC Live, and these texts come from MCC 11's death messages.
+# MCC never dies!
+kill_messages:
+  - "<victim> was tagged by <damager>"
+  - "<victim> banished <damager> to Pandemonium"
+  - "<damager> taught <victim> how Firebolt works..."
+  - "<victim> was hit by <damager>'s Eldrich Blast"
+  - "<victim> was no match for <damager>"
+  - "<damager> used Lightning Bolt on <victim>, it was super effective"
+  - "<victim> couldn't handle <damager>'s magic"
+  - "<damager> beat <victim> in a Wizard's Duel"
+  - "<victim> was turned to dust by <damager>"
+  - "<victim> got blasted by <damager>"
+win_round_messages: "<team> was awarded <the first place!>"
+lose_round_messages: "<team> was awarded <the runner-up>"
+win_match_messages: "<team> was awarded <the first place!>"
+lose_match_messages: "<team> was awarded <the runner-up>"

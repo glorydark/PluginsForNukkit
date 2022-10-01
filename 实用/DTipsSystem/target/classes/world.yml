@@ -1,0 +1,18 @@
+test1:
+  addtype: 0 #0为title 1为actionbar 2为message 3为popup
+  addContent: '欢迎 %p% 进入 %level%'
+  addSubTitle: "test" #title、popup可用
+  executecommand:
+    - say 11
+  duration: 50 #title、popup、actionbar可用
+  fadein: 10
+  fadeout: 10
+world:
+  addtype: 0 #0为title 1为actionbar 2为message 3为popup
+  addContent: 欢迎 %p% 进入 %level%
+  addSubTitle: test #title、popup可用
+  executecommand:
+    - say 11
+  duration: 50 #title、popup、actionbar可用
+  fadein: 10
+  fadeout: 10

@@ -1,0 +1,6 @@
+name: HidePlayerInPlayersList
+version: 1.0.0
+main: glorydark.hideplayerinplayerslist.MainClass
+api: ["1.0.9"]
+load: POSTWORLD
+authors: ["Glorydark"]

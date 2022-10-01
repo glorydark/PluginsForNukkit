@@ -1,0 +1,7 @@
+name: FastenedItem
+main: glorydark.fasteneditem.MainClass
+version: "1.0.0"
+author: glorydark
+api: ["1.0.0"]
+description: FastenedItem
+load: POSTWORLD

@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="FlySystem">
+    <output-path>$PROJECT_DIR$/../../Server/est/plugins</output-path>
+    <root id="archive" name="FlySystem.jar">
+      <element id="module-output" name="FlySystem" />
+    </root>
+  </artifact>
+</component>

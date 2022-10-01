@@ -1,0 +1,7 @@
+name: SimpleTeleportCommand
+main: glorydark.simpleteleport.MainClass
+version: "1.0.1"
+api: "1.0.0"
+author: glorydark
+description: SimpleTeleportCommand
+load: POSTWORLD

@@ -1,0 +1,3 @@
+specific-second-last: "还有 %d 秒清除所有地面掉落物及实体"
+clean-message: "本次清理了【%d1】个实体，【%d2】个物品"
+no-permission: "您没有权限！"

@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="PlayResSound">
+    <output-path>$PROJECT_DIR$/../../Server/TEST/plugins</output-path>
+    <root id="archive" name="PlayResSound.jar">
+      <element id="module-output" name="PlayResSound" />
+    </root>
+  </artifact>
+</component>

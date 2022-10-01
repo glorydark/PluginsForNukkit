@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="SummonEntity">
+    <output-path>$PROJECT_DIR$/../../Server/est/plugins</output-path>
+    <root id="archive" name="SummonEntity.jar">
+      <element id="module-output" name="SummonEntity" />
+    </root>
+  </artifact>
+</component>

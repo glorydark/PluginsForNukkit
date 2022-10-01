@@ -1,0 +1,7 @@
+name: DTipSystem
+main: glorydark.DTipSystem.MainClass
+version: "1.0.0Fixed2"
+api: "1.0.0"
+author: glorydark
+description: DTipSystem
+load: POSTWORLD

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="ScoreboardAPI-1.3-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../Server/DevelopmentPluginBase/ScoreboardAPI-1.3-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

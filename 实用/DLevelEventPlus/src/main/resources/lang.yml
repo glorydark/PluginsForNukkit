@@ -1,0 +1,153 @@
+Version: 2022070101
+
+#tips translations
+Tips:
+  AntiTouchFlame: 您所在世界禁止触碰展示框！
+  AntiTrampleFarmland: 您所在世界禁止破坏耕地！
+  AntiUseFishingRod: 您所在世界禁止使用钓鱼竿！
+  AntiUseChest: '您所在世界禁止使用该箱子 %position% ！'
+  AntiTeleport: '%s 世界禁止传送！'
+  AntiSneak: 世界禁止潜行
+  AntiSprint: 世界禁止冲刺
+  AntiSwim: 世界禁止游泳
+  AntiFly: 世界禁止飞行
+  AntiGlide: 世界禁止滑行
+  AntiJump: 世界禁止跳跃
+  AntiPickUpItem: 世界禁止捡东西
+  AntiConsumeItem: 世界禁止消耗物品
+  AntiBedEnter: 世界禁止上床
+  AntiDropItem: 世界禁止丢物品
+  AntiCommand: 世界禁止使用该指令
+  AntiAllCommand: 世界禁止使用指令
+  AntiChangeGamemode: 世界禁止更换模式
+  AntiMove: 世界禁止移动
+  AntiEat: 世界禁止吃食物
+  AntiTntExplode: 本插件已阻止一次TNT爆炸事件
+  AntiAllExplode: 本插件已阻止一次全类型爆炸事件
+  AntiPvp: 本区域禁止进行PVP
+  AntiPortalEnter: 本世界禁止进入传送门
+  AntiVehicleEnter: 本世界禁止使用载具
+  AntiPlaceBlock: 您所在世界禁止放置方块！
+  AntiBreakBlock: 您所在世界禁止破坏方块!
+  AntiPlaceSpecificBlock: 您所在世界禁止放置该方块！
+  AntiBreakSpecificBlock: 您所在世界禁止破坏该方块!
+  AntiDestroyFlameBlock: '%s 世界禁止破坏展示框！'
+  AntiChangeSignText: '%s 世界禁止修改告示牌！'
+  AntiInteract: 您所在世界禁止交互！
+  ItemBanned: 该物品已被禁用
+  BlockInteractBanned: 该方块禁止交互
+
+#gui text translations
+EditWindow:
+  EditWorldTitle: 编辑世界
+  EditTemplateTitle: 编辑模板
+  FarmProtect: 耕地踩踏保护
+  AllExplodes: 全部类型爆炸
+  TntExplodes: TNT爆炸
+  PVP: PVP
+  KeepInventory: 死亡不掉落物品
+  KeepXp: 死亡不掉落经验
+  AllowOpenChest: 允许打开箱子
+  CanUseFishingHook: 可使用鱼竿
+  AllowInteractFrameBlock: 与物品框交互
+  Sneak: 潜行
+  Sprint: 冲刺
+  Fly: 飞行
+  Swim: 游泳
+  Glide: 滑翔
+  Jump: 跳跃
+  Pick: 捡东西
+  ConsumeItem: 消耗物品
+  PlayerDropItem: 扔物品
+  BedEnter: 进入床
+  Move: 移动
+  EatFood: 吃食物
+  CommandPreprocess: 执行指令
+  GameModeChange: 改变游戏模式
+  BanTeleport: 本世界使用传送
+  Explosion: 实体爆炸
+  PortalEnter: 进入传送门
+  AllowPlaceBlock: 放置方块
+  AllowBreakBlock: 破坏方块
+  Burn: 方块燃烧
+  Ignite: 方块发光
+  Fall: 方块下落
+  Grow: 方块生长
+  Spread: 方块传播
+  Form: 方块生成
+  LeavesDecay: 树叶凋零
+  LiquidFlow: 液体流动
+  ItemFrameDropItem: 物品框掉落物品
+  SignChange: 改变告示牌
+  BlockRedstone: 红石
+  Interact: 方块交互
+  NoFallDamage: 无摔落伤害
+  BlockDropItem: 方块掉落物品
+  BlockDropExp: 方块掉落经验
+  BlockUpdate: 方块更新
+  BlockFade: 方块褪色
+  BlockPistonChange: 活塞变化
+  BlockFromToEvent: 方块变化
+#AddedGuiTitle&Content
+SettingChooseWorldMenu:
+  SelectWorld: 选择世界
+  SelectWorldContent: 请选择您要编辑的世界！
+
+TemplateMainMenu:
+  Title: 模板系统
+  Content: 请选择您需要的功能
+  AddTemplate: 添加模板
+  EditTemplate: 编辑模板
+
+SettingChooseTemplateMenu:
+  Title: 设置模板
+  Content: 选择模板
+
+TemplateAddMenu:
+  Title: 添加模板
+  TemplateName: 模板名称
+
+PowerMainMenu:
+  Title: 操作系统
+  Content: 选择您需要的功能
+  AddPower: 增加权限
+  RemovePower: 移除权限
+
+MainMenu:
+  Title: 操作系统
+  Content: 选择您需要的功能
+  ManageWorld: 管理世界
+  ManagePower: 管理权限
+  SaveInit: 保存配置
+  ReloadInit: 重载配置
+  ManageTemplate: 设置模板
+
+PowerMenu:
+  AddPowerTitle: 添加权限
+  DelPowerTitle: 移除权限
+  AddPowerDropdownTitle: 选择权限
+  DelPowerDropdownTitle: 选择权限
+  ManagerOption: 管理员
+  OperatorOption: 操作员
+  WhitelistOption: 白名单
+  PlayerName: 玩家名
+  WorldName: 世界名(除管理员都要填)
+
+General:
+  Title: 提示
+  ReturnButton: 返回
+  SaveSuccess: 操作成功！
+  SaveFailed: 操作失败！
+  QuitButton: 退出
+
+Help:
+  - '§a§lDLevelEventPlus 使用指南'
+  - '§a新增世界配置文件 §e/dwp addworld world'
+  - '§a新增管理员 §e/dwp admin add/del player'
+  - '§a新增操作员 §e/dwp operatorlist add/del player world'
+  - '§a新增白名单 §e/dwp whitelist add/del player world'
+  - '§a打开编辑配置菜单 §e/dwp edit'
+  - '§a保存配置(不包含语言文件) §e/dwp save'
+  - '§a重载世界配置(包含语言文件) §e/dwp reload'
+  - '§a升级所有配置文件 §e/dwp fixall'
+  - '§a尝试获取指令 §e/dwp getcommand'

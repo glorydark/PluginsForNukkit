@@ -1,0 +1,14 @@
+language: zh-cn
+version: 2022082101
+#建议低配置服务器不要开启，通过反复发包来解决一个核心的蜜汁bug
+force_default_mode: true
+default_speed_ticks: 4
+chest_speed_ticks: 4
+ban_worlds: []
+ban_worlds_prefixs: []
+show_type: actionbar
+show_reward_window: true
+inventory_cache_paths:
+  - "plugins/GunWar/PlayerInventory/%player%.json"
+save_bag_enabled: true
+registered_tickets: []

@@ -1,0 +1,7 @@
+name: BackToLobby
+main: glorydark.backtolobby.MainClass
+version: "1.0.1"
+api: "1.0.0"
+author: glorydark
+description: BackToLobby
+load: POSTWORLD

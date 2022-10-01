@@ -1,0 +1,6 @@
+name: SimpleWorldsTeleport
+main: simpleworldsteleport.MainClass
+version: 1.0.0
+api: 1.0.0
+author: Glorydark
+load: POSTWORLD

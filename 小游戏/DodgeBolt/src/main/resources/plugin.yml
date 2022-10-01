@@ -1,0 +1,9 @@
+main: glorydark.dodgebolt.MainClass
+name: DodgeBolt
+version: 1.0.0Fixed
+api: 1.0.0
+author: Glorydark
+description: DodgeBolt
+depend:
+  - 'GameAPI'
+  - 'ScoreboardPlugin'

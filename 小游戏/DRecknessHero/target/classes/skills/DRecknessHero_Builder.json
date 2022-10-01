@@ -1,0 +1,37 @@
+{
+  "version": "1.0.0",
+  "skill_data": {
+    "name": "建筑狂人",
+    "description": "暴走英雄专用",
+    "cooldown": 100,
+    "duration": 100,
+    "item_data": {
+      "id": 288,
+      "meta": 0,
+      "compoundtag": {
+        "skill_name": "builder"
+      },
+      "display_name": "建筑狂人 [点击使用]"
+    },
+    "controllers": [
+      {
+        "binding_type": "event",
+        "binding_value": "PlayerInteractEvent",
+        "check_data": [
+          {
+            "object": "use_item",
+            "check_type": "compound_tag#skill_name",
+            "check_value": "builder"
+          }
+        ]
+      }
+    ],
+  "commands":[
+      {
+        "type": "start",
+        "isConsole": true,
+        "text": "give %player% 152 5"
+      }
+    ]
+  }
+}

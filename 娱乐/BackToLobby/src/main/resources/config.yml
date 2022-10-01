@@ -1,0 +1,9 @@
+command: "backtolobby"
+aliases:
+  - "hub"
+spawn: "null"
+wait-ticks: 5
+pre-back-title: "正在回城中"
+pre-back-subtitle: "请不要移动"
+back-title: "回城成功"
+back-subtitle: ""

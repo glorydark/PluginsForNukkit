@@ -1,0 +1,144 @@
+Version: 2022070101
+
+#tips translations
+Tips:
+  AntiTouchFlame: You are not allowed to touch flame blocks in this world！
+  AntiTrampleFarmland: You are not allowed to trample the farmland in this world！
+  AntiUseFishingRod: You are not allowed to use fishingrod in this world！
+  AntiUseFlintAndSteel: You are not allowed to use the flint and steel in this world！
+  AntiUseChest: 'You are not allowed to open this chest: %position% ！'
+  AntiTeleport: 'You are not allowed to teleport in the world: %s！'
+  AntiSneak: You are not allowed to sneak in this world！
+  AntiSprint: You are not allowed to sprint in this world！
+  AntiSwim: You are not allowed to swim in this world！
+  AntiFly: You are not allowed to fly in this world！
+  AntiGlide: You are not allowed to glide in this world！
+  AntiJump: You are not allowed to jump in this world！
+  AntiPickUpItem: You are not allowed to pick up the item in this world！
+  AntiConsumeItem: You are not allowed to consume items in this world！
+  AntiBedEnter: You are not allowed to enter the bed in this world！
+  AntiDropItem: You are not allowed to drop items in this world！
+  AntiCommand: You are not allowed to use this command in this world！
+  AntiAllCommand: You are not allowed to use all the commands in this world！
+  AntiChangeGamemode: You are not allowed to change your gamemode in this world！
+  AntiMove: You are not allowed to move in this world！
+  AntiEat: You are not allowed to move in this world！
+  AntiTntExplode: Successfully prevent an explosion!
+  AntiAllExplode: Successfully prevent an explosion!
+  AntiPvp: You are not allowed to fight with other players in this world！
+  AntiPortalEnter: You are not allowed to enter the portal in this world！
+  AntiVehicleEnter: You are not allowed to enter the vehicle in this world！
+  AntiPlaceBlock: You are not allowed to place the block in this world！
+  AntiBreakBlock: You are not allowed to break the block in this world！
+  AntiPlaceSpecificBlock: 您所在世界禁止放置该方块！
+  AntiBreakSpecificBlock: 您所在世界禁止破坏该方块!
+  AntiDestroyFlameBlock: 'You are not allowed to destroy flame block in the world: %s！'
+  AntiChangeSignText: 'You are not allowed to change sign text in the world: %s！'
+
+#gui text translations
+EditWindow:
+  EditWorldTitle: 编辑世界
+  EditTemplateTitle: 编辑模板
+  FarmProtect: 耕地踩踏保护
+  AllExplodes: AllExplodes
+  TntExplodes: TntExplodes
+  Pvp: PVP
+  KeepInventory: KeepInventory
+  KeepXp: KeepXp
+  AllowOpenChest: OpenChest
+  CanUseFishingHook: UseFishingHook
+  AllowInteractFrameBlock: InteractFrameBlock
+  AllowUseFlintAndSteel: UseFlintAndSteel
+  Sneak: Sneak
+  Sprint: Sprint
+  Fly: Fly
+  Swim: Swim
+  Glide: Glide
+  Jump: Jump
+  Pick: Pick
+  ConsumeItem: ConsumeItem
+  DropItem: DropItem
+  BedEnter: BedEnter
+  Move: Move
+  EatFood: EatFood
+  CommandPreprocess: CommandPreprocess
+  GameModeChange: GameModeChange
+  BanTeleport: BanTeleport
+  Explosion: Explosion
+  PortalEnter: PortalEnter
+  AllowPlaceBlock: AllowPlaceBlock
+  AllowBreakBlock: AllowBreakBlock
+  Burn: BlockBurn
+  Ignite: BlockIgnite
+  Fall: BlockFall
+  Grow: BlockGrow
+  Spread: BlockSpread
+  Form: BlockForm
+  DoorToggle: DoorToggle
+  LeavesDecay: LeavesDecay
+  LiquidFlow: LiquidFlow
+  ItemFrameDropItem: ItemFrameDropItem
+  SignChange: SignChange
+  BlockRedstone: Redstone
+
+#AddedGuiTitle&Content
+SettingChooseWorldMenu:
+  SelectWorld: Select World
+  SelectWorldContent: Select a world that you want.
+
+TemplateMainMenu:
+  Title: Template System
+  Content: Choose the function that you want.
+  AddTemplate: Add a template
+  EditTemplate: Edit templates
+
+SettingChooseTemplateMenu:
+  Title: Edit Template
+  Content: Choose a template that you want.
+
+TemplateAddMenu:
+  Title: Add a template
+  TemplateName: Template's Name
+
+PowerMainMenu:
+  Title: Permission System
+  Content: Choose the function you want.
+  AddPower: Add power to players
+  RemovePower: Remove power from players
+
+MainMenu:
+  Title: MainMenu
+  Content: Choose the function you want.
+  ManageWorld: Manage Worlds
+  ManagePower: Permission System
+  SaveInit: Save configurations
+  ReloadInit: Reload configurations
+  ManageTemplate: Template System
+
+PowerMenu:
+  AddPowerTitle: Add Power to players
+  DelPowerTitle: Remove Power from players
+  AddPowerDropdownTitle: Available Power
+  DelPowerDropdownTitle: Available Power
+  ManagerOption: Admin
+  OperatorOption: Operator
+  WhitelistOption: Whitelist
+  PlayerName: PlayerName
+  WorldName: WorldName(Except admin, you need to enter)
+
+General:
+  Title: Tips
+  ReturnButton: Return
+  SaveSuccess: Save successfully！
+  SaveFailed: Save failed！
+  QuitButton: Quit
+
+Help:
+  - 'DLevelEventPlus - help'
+  - 'Save a new config for worlds -  /dwp addworld world'
+  - 'Add an admin - /dwp admin add/del player world'
+  - 'Add an operator - /dwp operatorlist add/del player world'
+  - 'Add a whitelist  /dwp whitelist add/del player world'
+  - 'Open the edit window for the world you stay now: /dwp edit'
+  - 'Save configuration: /dwp save'
+  - 'Reload configuration: /dwp reload'

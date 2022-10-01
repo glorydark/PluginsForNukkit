@@ -1,0 +1,6 @@
+main: glorydark.itemusecmd.ItemUseCmdMain
+name: ItemUseCmd
+version: 1.0.0
+api: 1.0.0
+author: Glorydark
+description: ItemUseCmd
