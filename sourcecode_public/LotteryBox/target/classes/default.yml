@@ -1,0 +1,91 @@
+needs: []
+displayName: 测试抽奖箱
+permanentLimit: 3000
+spawnFirework: true
+endParticle: hugeexplosion
+weightEnabled: true
+sound: "random.orb"
+descriptions:
+  - '内含奖品:'
+  - '[ 233 ] * 1天'
+  - '[ 466 ] * 1天'
+prizes:
+  test1:
+    displayitem: 1:0:1:null
+    possibility: 5000
+    description: '233'
+    broadcast: true
+    items:
+      - 1:0:1:null
+    showoriginname: true
+    consolecommands: []
+    rarity: 平凡
+  test2:
+    displayitem: 2:0:1:null
+    possibility: 20
+    description: 没有奖励
+    broadcast: true
+    items:
+      - 1:0:1:null
+    showoriginname: true
+    consolecommands: []
+    rarity: 稀有
+  test3:
+    displayitem: 3:0:1:null
+    possibility: 20
+    description: 没有奖励
+    broadcast: true
+    items:
+      - 1:0:1:null
+    showoriginname: true
+    consolecommands: []
+    rarity: 罕见
+  test4:
+    displayitem: 4:0:1:null
+    possibility: 20
+    description: 没有奖励
+    broadcast: true
+    items:
+      - 1:0:1:null
+    showoriginname: true
+    consolecommands: []
+    rarity: default
+  test5:
+    displayitem: 5:0:1:null
+    possibility: 20
+    description: 没有奖励
+    broadcast: true
+    items:
+      - 1:0:1:null
+    showoriginname: true
+    consolecommands: []
+    rarity: 精良
+  test6:
+    displayitem: 6:0:1:null
+    possibility: 20
+    description: 没有奖励
+    broadcast: true
+    items:
+      - 1:0:1:null
+    showoriginname: true
+    consolecommands: []
+    rarity: 传说
+  test7:
+    displayitem: 7:0:1:null
+    possibility: 20
+    description: 没有奖励
+    broadcast: true
+    items:
+      - 1:0:1:null
+    showoriginname: true
+    consolecommands: []
+    rarity: 史诗
+bonuses:
+  test1:
+    times: 1
+    prize: test1
+    items:
+      - 1:0:1:null
+    consolecommands:
+      - say test
+      - give %player% 1 1

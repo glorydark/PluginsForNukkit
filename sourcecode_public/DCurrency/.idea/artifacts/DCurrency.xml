@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="DCurrency">
+    <output-path>$PROJECT_DIR$/../../dependences/test_server/plugins</output-path>
+    <root id="archive" name="DCurrency.jar">
+      <element id="module-output" name="DCurrency" />
+    </root>
+  </artifact>
+</component>

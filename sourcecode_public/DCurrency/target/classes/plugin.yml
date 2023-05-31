@@ -1,0 +1,7 @@
+name: DCurrency
+main: glorydark.dcurrency.CurrencyMain
+version: "1.0.3F4"
+api: "1.0.0"
+author: glorydark
+description: DCurrency
+load: POSTWORLD
