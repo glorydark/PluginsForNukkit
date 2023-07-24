@@ -1,0 +1,7 @@
+name: FloatingText
+main: glorydark.floatingtext.MainClass
+author: glorydark
+version: 1.0.0
+description: FloatingText
+api: "1.0.0"
+load: POSTWORLD

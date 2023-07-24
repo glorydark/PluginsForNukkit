@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="powernukkitx">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../dependences/pnx_server/powernukkitx.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
