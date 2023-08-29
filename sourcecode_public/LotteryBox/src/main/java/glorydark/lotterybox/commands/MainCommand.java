@@ -7,12 +7,17 @@ import cn.nukkit.command.CommandSender;
 import cn.nukkit.utils.Config;
 import glorydark.lotterybox.MainClass;
 import glorydark.lotterybox.forms.CreateGui;
+import glorydark.lotterybox.forms.GuiListener;
 import glorydark.lotterybox.languages.Lang;
 import glorydark.lotterybox.tools.BasicTool;
 import glorydark.lotterybox.tools.Inventory;
+import glorydark.lotterybox.tools.LotteryBox;
 
 import java.io.File;
 import java.util.ArrayList;
+import java.util.Optional;
+
+import static glorydark.lotterybox.forms.CreateGui.showLotteryBoxWindowV2;
 
 public class MainCommand extends Command {
 
@@ -25,10 +30,39 @@ public class MainCommand extends Command {
         if(strings.length < 1){ return false; }
         switch (strings[0]){
             case "menu":
-                if(commandSender instanceof Player){
-                    CreateGui.showSelectLotteryBoxWindow(((Player) commandSender).getPlayer());
-                }else{
-                    commandSender.sendMessage(MainClass.lang.getTranslation("Tips","CommandShouldBeUsedInGame"));
+                switch (strings.length){
+                    case 1:
+                        if(commandSender instanceof Player){
+                            CreateGui.showSelectLotteryBoxWindow(((Player) commandSender).getPlayer());
+                        }else{
+                            commandSender.sendMessage(MainClass.lang.getTranslation("Tips","CommandShouldBeUsedInGame"));
+                        }
+                        break;
+                    case 2:
+                        if(commandSender.isPlayer()) {
+                            Player player = (Player) commandSender;
+                            if (!BasicTool.isPE(player) && !player.isOnGround()) {
+                                player.sendMessage(MainClass.lang.getTranslation("Tips", "NoOnGround"));
+                                return true;
+                            }
+                            Optional<LotteryBox> optional = MainClass.lotteryBoxList.stream().filter(lotteryBox -> lotteryBox.getName().equals(strings[1])).findFirst();
+                            if(optional.isPresent()) {
+                                LotteryBox box = optional.get();
+                                MainClass.playerLotteryBoxes.put(player, box);
+                                if (!BasicTool.isPE(player) && !MainClass.forceDefaultMode) {
+                                    if (box.isWeightEnabled()) {
+                                        CreateGui.showLotteryPossibilityWindow(player, box);
+                                    } else {
+                                        showLotteryBoxWindowV2(player, box);
+                                    }
+                                } else {
+                                    CreateGui.showLotteryPossibilityWindow(player, box);
+                                }
+                            }else{
+                                commandSender.sendMessage("Can not find the lottery from the name given accordingly!");
+                            }
+                        }
+                        break;
                 }
                 break;
             case "give": //give player ticket amount

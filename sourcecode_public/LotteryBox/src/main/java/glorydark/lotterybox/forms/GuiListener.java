@@ -13,6 +13,7 @@ import glorydark.lotterybox.MainClass;
 import glorydark.lotterybox.event.LotteryForceCloseEvent;
 import glorydark.lotterybox.tasks.nonWeight.InventoryChangeTask;
 import glorydark.lotterybox.tasks.weight.InventoryChangeTaskV2;
+import glorydark.lotterybox.tools.BasicTool;
 import glorydark.lotterybox.tools.LotteryBox;
 
 import java.sql.SQLException;
@@ -52,13 +53,13 @@ public class GuiListener implements Listener {
         if(MainClass.playingPlayers.contains(player)){ return;}
         switch (guiType){
             case SelectLotteryBox:
-                if(!isPE(player) && !player.isOnGround()){
+                if(!BasicTool.isPE(player) && !player.isOnGround()){
                     player.sendMessage(MainClass.lang.getTranslation("Tips","NoOnGround"));
                     return;
                 }
                 LotteryBox box = MainClass.lotteryBoxList.get(simple.getResponse().getClickedButtonId());
                 MainClass.playerLotteryBoxes.put(player, box);
-                if(!isPE(player) && !MainClass.forceDefaultMode) {
+                if(!BasicTool.isPE(player) && !MainClass.forceDefaultMode) {
                     if(box.isWeightEnabled()){
                         CreateGui.showLotteryPossibilityWindow(player, box);
                         //showPESelectSpinWindow(player);
@@ -99,14 +100,5 @@ public class GuiListener implements Listener {
                 Server.getInstance().getPluginManager().callEvent(new LotteryForceCloseEvent(player));
             }
         }
-    }
-
-    public boolean isPE(Player player) {
-        List<Integer> pc = new ArrayList<>();
-        pc.add(7);
-        pc.add(11);
-        pc.add(13);
-        pc.add(20);
-        return !pc.contains(player.getLoginChainData().getDeviceOS());
     }
 }

@@ -1,7 +1,7 @@
 <component name="libraryTable">
-  <library name="lombok">
+  <library name="Tips-2.1.6">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/../../../dependences/lombok.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../dependences/Tips-2.1.6.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

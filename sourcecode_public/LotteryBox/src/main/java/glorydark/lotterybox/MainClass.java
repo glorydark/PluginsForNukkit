@@ -175,7 +175,7 @@ public class MainClass extends PluginBase {
                     for(String itemString: (List<String>)subMap.get("items")){
                         items.add(Inventory.getItem(itemString));
                     }
-                    bonuses.add(new Bonus(key, items.toArray(new Item[items.size()-1]), (List<String>) subMap.get("consolecommands"), (Integer) subMap.get("times")));
+                    bonuses.add(new Bonus(key, items.toArray(new Item[0]), (List<String>) subMap.get("consolecommands"), (Integer) subMap.get("times")));
                 }
                 LotteryBox lotteryBox = new LotteryBox(file.getName().split("\\.")[0],config.getString("displayName"), config.getStringList("needs"), config.getStringList("descriptions"), prizes, bonuses, config.getInt("permanentLimit"), config.getBoolean("spawnFirework"), config.getString("endParticle"), config.getString("sound", Sound.RANDOM_ORB.getSound()), config.getBoolean("weightEnabled", false));
                 lotteryBoxList.add(lotteryBox);

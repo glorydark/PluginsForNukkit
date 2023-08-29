@@ -5,6 +5,9 @@ import cn.nukkit.item.Item;
 import cn.nukkit.utils.Config;
 import glorydark.lotterybox.MainClass;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class BasicTool {
 
     public static Boolean checkTicketCounts(String player, String ticket, Integer counts){
@@ -63,4 +66,14 @@ public class BasicTool {
         }
         return needItem.getCount() <= counts * spins;
     }
+
+    public static boolean isPE(Player player) {
+        List<Integer> pc = new ArrayList<>();
+        pc.add(7);
+        pc.add(11);
+        pc.add(13);
+        pc.add(20);
+        return !pc.contains(player.getLoginChainData().getDeviceOS());
+    }
+
 }

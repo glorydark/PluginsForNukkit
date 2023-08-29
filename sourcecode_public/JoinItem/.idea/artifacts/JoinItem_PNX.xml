@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="JoinItem_PNX">
+    <output-path>$PROJECT_DIR$/../../../../dependences/pnx_server/plugins</output-path>
+    <root id="archive" name="JoinItem_PNX.jar">
+      <element id="module-output" name="JoinItem" />
+    </root>
+  </artifact>
+</component>
